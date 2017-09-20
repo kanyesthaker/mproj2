@@ -1,5 +1,6 @@
-package com.demo.mdb.pokedex;
+package com.example.kanyes.pokedex;
 
+import android.os.Parcelable;
 import android.util.Log;
 
 import org.json.JSONException;
@@ -11,7 +12,7 @@ import java.util.Iterator;
 /**
  * Created by aneeshjindal on 9/21/16.
  */
-public class Pokedex {
+public class Pokedex{
 
     public ArrayList<Pokemon> getPokemon() {
         ArrayList<Pokemon> pokemons = new ArrayList<>();

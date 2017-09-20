@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:paddingBottom="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckedTextView
+                android:id="@+id/normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Normal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/fire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Fire"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/fighting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Fighting"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/ground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Ground"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/water"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Water"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/flying"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:clickable="false"
+                android:text="Flying"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/grass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Grass"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/poison"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Poison"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/electric"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Electric"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/psychic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Psychic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/rock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Rock"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/ice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Ice"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/bug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Bug"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/dragon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Dragon"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/ghost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Ghost"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Dark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/steel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Steel"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+
+            <CheckedTextView
+                android:id="@+id/fairy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Fairy"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>
